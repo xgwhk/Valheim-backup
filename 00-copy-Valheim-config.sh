@@ -1,13 +1,13 @@
  #!/bin/bash
 #reinitialise directories
-cd ~/Documents/git/Home/Valheim-backup/config
+cd ~/Documents/git/home/Valheim-backup/config
 rm -r *
-cd ~/Documents/git/Home/Valheim-backup/plugins
+cd ~/Documents/git/home/Valheim-backup/plugins
 rm -r *
-cd ~/Documents/git/Home/Valheim-backup/patchers
+cd ~/Documents/git/home/Valheim-backup/patchers
 rm -r *
 #copy file to git directories
-cp -R ~/Downloads/Valheim/000\ Valheim/BepInEx/config/* ~/Documents/git/Home/Valheim-backup/config/.
-cp -R ~/Downloads/Valheim/000\ Valheim/BepInEx/plugins/* ~/Documents/git/Home/Valheim-backup/plugins/.
-cp -R ~/Downloads/Valheim/000\ Valheim/BepInEx/patchers/* ~/Documents/git/Home/Valheim-backup/patchers/.
+cp -R ~/LargeDocuments/Steam/steamapps/common/Valheim/BepInEx/config/*   ~/Documents/git/home/Valheim-backup/config/.
+cp -R ~/LargeDocuments/Steam/steamapps/common/Valheim/BepInEx/plugins/*  ~/Documents/git/home/Valheim-backup/plugins/.
+cp -R ~/LargeDocuments/Steam/steamapps/common/Valheim/BepInEx/patchers/* ~/Documents/git/home/Valheim-backup/patchers/.
 
